@@ -4,7 +4,7 @@
         <record id="sales_order_customization" model="ir.ui.view">
         <field name="name">Sale order customization</field>
         <field name="model">sale.order</field>
-        <field name="inherit_id" ref="	sale.view_order_form"/>
+        <field name="inherit_id" ref="sale.view_order_form"/>
         <field name="arch" type="xml">
             <xpath expr="//field[@name='payment_term_id']" position="after">
                 <field name="employee_name"/>
